@@ -1,0 +1,10 @@
+[local]
+localhost
+
+[server]
+192.168.1.1 #<<< set your server address here
+
+[all:vars]
+ansible_ssh_port=22
+ansible_python_interpreter=/usr/bin/python3
+INSTALL_USER=ansible-user
